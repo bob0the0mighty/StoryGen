@@ -2,9 +2,14 @@ CPSC 599 – Generating Programming Assignments using Story Generation Technique
 
 High Level Goals - 
 	Review Literature
-		Noah Ryan's paper
-		Kumar
-		Steve Smith's thesis
+		Papers on Automatic Programming Assignments
+			Noah Ryan's paper
+			Kumar
+			Steve Smith's thesis
+				J.D. Gallagher: APGen, an Intelligent and Automated System of Assignment Generation
+				T. Williams: Automated Generation of Simple C++ Programming Assignments
+				S.H. Edwards et al:Developing a Common Format for Sharing Programming Assignments
+		Papers on Story Generation
 	Develop Code
 		Generate Abstract Assignment Description XML
 			review existing code

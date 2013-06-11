@@ -4,21 +4,23 @@ High Level Goals -
 	Review Literature
 		On Automatic Programming Assignments
 			Noah Ryan's paper
-        Believes that 
 			Generation of Problems, Answers, Grade and Feedback - Kumar 
         Believes semantic problems are better represented by template-like systems and
-        syntatic problems better represented with randomly generated system. Also states 
+        syntactic problems better represented with randomly generated system. Also states 
         that semantic problems are domain-dependant and thus not reusable, for different 
-        languages I assume, but are composable.
+        languages I assume, but are composable with one another.
       A TUTOR FOR COUNTER-CONTROLLED LOOP CONCEPTS AND ITS EVALUATION - Dancik, Kumar
         
       Automated Generation of Randomized java programming assignments from abstract 
       descriptions - Smith
         
 				S.H. Edwards et al:Developing a Common Format for Sharing Programming Assignments
-          tangentally related to current goal.  Describes a format similar to jars for 
+          tangentially related to current goal.  Describes a format similar to jars for 
           programming assignments.
 		On Story Generation
+			Natural Language processing 
+				OpenNLP - opennlp.apache.org - Apache run Natural Language Processing 
+					project.  Java based with bindings to other systems.
       Natural Language generation
         ACL
           association for computational linguistics
@@ -31,10 +33,10 @@ High Level Goals -
         Referring Expression Generation
         Realization
           simpleNLG - simplified java Natural Language Generation lib
-          OpenCCG   - OpenNLP realization library.  Written in java and based on 
+          OpenCCG   - http://openccg.sourceforge.net/ - OpenNLP realization library.  Written in java and based on 
           Combinatory Categorial Grammar 
 	Develop Code
-		Generate Abstract Assegnment Description XML
+		Generate Abstract Assignment Description XML
 			review existing code
 	Paper
 		Literature Review

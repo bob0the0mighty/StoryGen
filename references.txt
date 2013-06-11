@@ -1,14 +1,41 @@
-1. The Automatic Generation of Story Problems for Programming Classes. Noah Ryan, Christopher Newport University.
-2. Generation of Problems, Answers, Grade, and Feedback - Case Study of a Fully Automated Tutor. Amruth N Kumar, Ramapo College of New Jersey.
-3. Automated Generation of Randomized Java Programming Assignments from Abstract Descriptions. Steve O. Smith, Christopher Newport University 2009 
-@misc{ wiki:xxx,
+@misc{ryan2013generation,
+ title = {The Automatic Generation of Story Problems for Programming Classes},
+ author = {Ryan, Noah},
+ year = 2013,
+ address = {Christopher Newport University}
+}
+@article{Kumar:2005:GPA:1163405.1163408,
+ author = {Kumar, Amruth N.},
+ title = {Generation of problems, answers, grade, and feedback---case study of a fully automated tutor},
+ journal = {J. Educ. Resour. Comput.},
+ issue_date = {September 2005},
+ volume = {5},
+ number = {3},
+ month = sep,
+ year = {2005},
+ issn = {1531-4278},
+ articleno = {3},
+ url = {http://doi.acm.org/10.1145/1163405.1163408},
+ doi = {10.1145/1163405.1163408},
+ acmid = {1163408},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {Software tutor, active learning, answer generation, evaluation, feedback generation, problem generation, problem solving},
+} 
+@misc{steve2009automated,
+	title = {Automated Generation of Randomized Java Programming Assignments from Abstract Descriptions},
+	author = {Smith, Steve O},
+	year = {2009},
+	location = {Christopher Newport University}
+}
+@misc{ wiki:NLP,
    author = "Wikipedia",
    title = "Natural language generation --- Wikipedia{,} The Free Encyclopedia",
    year = "2013",
    url = "http://en.wikipedia.org/w/index.php?title=Natural_language_generation&oldid=540623923",
    note = "[Online; accessed 10-June-2013]"
  }
-@misc{ wiki:xxx,
+@misc{ wiki:Realization,
    author = "Wikipedia",
    title = "Realization (linguistics) --- Wikipedia{,} The Free Encyclopedia",
    year = "2012",
@@ -26,4 +53,12 @@
   author={Eriksson, Henrik and Fergerson, Raymond and Shahar, Yuval and Musen, Mark A},
   booktitle={Proceedings of the 12th Banff Knowledge Acquisition Workshop, Banff, Alberta, Canada},
   year={1999}
+}
+@INPROCEEDINGS{Mcdonald85acomputational,
+    author = {David D. Mcdonald and James D. Pustejovsky},
+    title = {A Computational Theory of Prose Style for Natural Language Generation},
+    booktitle = {In Proceedings of the 9th IJCAI},
+    year = {1985},
+    pages = {799--805},
+    publisher = {John Wilwy and Sons}
 }

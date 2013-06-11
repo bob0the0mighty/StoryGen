@@ -22,6 +22,8 @@ High Level Goals -
 				OpenNLP - opennlp.apache.org - Apache run Natural Language Processing 
 					project.  Java based with bindings to other systems.
       Natural Language generation
+				Protege - ontology editor - 
+					may be useful for building corpus from which sensical stories can be created.
         ACL
           association for computational linguistics
         SIGGEN

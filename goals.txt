@@ -2,16 +2,39 @@ CPSC 599 – Generating Programming Assignments using Story Generation Technique
 
 High Level Goals - 
 	Review Literature
-		Papers on Automatic Programming Assignments
+		On Automatic Programming Assignments
 			Noah Ryan's paper
-			Kumar
-			Steve Smith's thesis
-				J.D. Gallagher: APGen, an Intelligent and Automated System of Assignment Generation
-				T. Williams: Automated Generation of Simple C++ Programming Assignments
+        Believes that 
+			Generation of Problems, Answers, Grade and Feedback - Kumar 
+        Believes semantic problems are better represented by template-like systems and
+        syntatic problems better represented with randomly generated system. Also states 
+        that semantic problems are domain-dependant and thus not reusable, for different 
+        languages I assume, but are composable.
+      A TUTOR FOR COUNTER-CONTROLLED LOOP CONCEPTS AND ITS EVALUATION - Dancik, Kumar
+        
+      Automated Generation of Randomized java programming assignments from abstract 
+      descriptions - Smith
+        
 				S.H. Edwards et al:Developing a Common Format for Sharing Programming Assignments
-		Papers on Story Generation
+          tangentally related to current goal.  Describes a format similar to jars for 
+          programming assignments.
+		On Story Generation
+      Natural Language generation
+        ACL
+          association for computational linguistics
+        SIGGEN
+          ACL SIG for natural language generation
+        Content Determination
+        Document Structuring
+        Aggregation
+        Lexical Choice
+        Referring Expression Generation
+        Realization
+          simpleNLG - simplified java Natural Language Generation lib
+          OpenCCG   - OpenNLP realization library.  Written in java and based on 
+          Combinatory Categorial Grammar 
 	Develop Code
-		Generate Abstract Assignment Description XML
+		Generate Abstract Assegnment Description XML
 			review existing code
 	Paper
 		Literature Review

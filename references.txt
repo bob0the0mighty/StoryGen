@@ -1,3 +1,29 @@
 1. The Automatic Generation of Story Problems for Programming Classes. Noah Ryan, Christopher Newport University.
 2. Generation of Problems, Answers, Grade, and Feedback - Case Study of a Fully Automated Tutor. Amruth N Kumar, Ramapo College of New Jersey.
-3. Automated Generation of Randomized Java Programming Assignments from Abstract Descriptions. Steve O. Smith, Christopher Newport University 2009
+3. Automated Generation of Randomized Java Programming Assignments from Abstract Descriptions. Steve O. Smith, Christopher Newport University 2009 
+@misc{ wiki:xxx,
+   author = "Wikipedia",
+   title = "Natural language generation --- Wikipedia{,} The Free Encyclopedia",
+   year = "2013",
+   url = "http://en.wikipedia.org/w/index.php?title=Natural_language_generation&oldid=540623923",
+   note = "[Online; accessed 10-June-2013]"
+ }
+@misc{ wiki:xxx,
+   author = "Wikipedia",
+   title = "Realization (linguistics) --- Wikipedia{,} The Free Encyclopedia",
+   year = "2012",
+   url = "http://en.wikipedia.org/w/index.php?title=Realization_(linguistics)&oldid=506006534",
+   note = "[Online; accessed 10-June-2013]"
+ }
+ @inproceedings{deane2003automatic,
+  title={Automatic item generation via frame semantics: Natural language generation of math word problems},
+  author={Deane, Paul and Sheehan, Kathleen},
+  booktitle={annual meeting of the National Council on Measurement in Education, Chicago, IL},
+  year={2003}
+}
+@inproceedings{eriksson1999automatic,
+  title={Automatic generation of ontology editors},
+  author={Eriksson, Henrik and Fergerson, Raymond and Shahar, Yuval and Musen, Mark A},
+  booktitle={Proceedings of the 12th Banff Knowledge Acquisition Workshop, Banff, Alberta, Canada},
+  year={1999}
+}

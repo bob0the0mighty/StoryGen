@@ -1,0 +1,34 @@
+﻿StoryGen - Programmatic Story Generation with Relation to Programing Assignments
+
+
+1. Problem 
+1. Story Generation is an advanced application of Natural language Processing(NLP) in general and Natural Language Generation(NLG) in particular that has application in many fields.  This paper focuses on the possibility of using NLP and NLG to 1)produce word problems for beginning programming assignments and 2)produce beginning programming assignments from word problems.  
+1. Motivation 
+1. Motivation for this paper stems from Ryan 2013 which set out to automate story generation for beginning programming assignments.  The goal of this paper is to review current literature, provide guidance for future research, and present the results of a prototype of automatic story generation for programming assignments. 
+1. Current research
+1. Problem generation
+1. Smith 2009 - Automated Generation of Randomized Java Programming Assignments from Abstract Descriptions - Provided an Abstract Assignment Description(AAD) that, when given to a generator, would create working code for a programming assignment described by the AAD.  Teacher and student versions of the assignment would be generated as well as a JUnit test that allows students to test their answers.  Fairly robust but lacks compelling reason to answer problem.
+2. Kumar 2005 - Generation of problems, answers, grade, and feedback-case study of a fully automated tutor - Created a fully automated tutor that helped students learn scoping rules for a programming language.  Tutor was able to generate scope problems of varying difficulty, target specific types of scope problems, and give feedback in realtime.  The authors had built several tutors before and believed semantic problems are better represented by template-like systems while syntactic problems are better represented with randomly generated system such as the scope tutor.  An important takeaway is that the authors believe semantic problems are domain-dependant and thus not reusable but are composable with one another.  If this is the case, then for our purpose we could compose problems together once we have working models.  References Kumar 2003.
+3. Ihantola 2010 - Review of recent systems for automatic assessment of programming assignments - survey of recent research into automated assessment.  Focuses on assessment  for programming contests and introductory programming courses.  Good list of papers that may be relevant in future research.
+1. Story generation
+1. Wikipedia NLG and Realization - good starting point for basic understanding and vocabulary of NLG.  Process given for NLG is:
+1. Content Determination
+2. Document Structuring
+3. Aggregation
+4. Lexical Choice
+5. Referring Expression Generation 
+6. Realization is the procedure of creating human readable text.  
+1. Callaway 2002 and 2000- Narrative Prose Generation - PhD Thesis and subsequent expansion on narrative story generation.  Both the thesis and the paper goes into high level detail but seems only able to model little red riding hood.  While the authors claim that the systems are able to model fairy tales, it seems that the need to devise a 200-state state machine to model Little Red Riding Hood removes the generality of the system.  May be a good starting point for story generation.  Main takeaway for my purpose is that narrative consists of fabula, essentially an ontology of the story world, and suzjet, ordering of events and specifics. 
+2. Riedl 2004 - An Intent-Driven Planner for Multi-Agent Story Generation - Goal is to generate stories with strong plot coherence and character believability in order to better engage and audience.  Provides a rigorous method for accomplishing their goals but lacks results.  Uses the Belief-Desire-Intention(BDI) model as the underlying architecture. Could be a path for expanding Autogen.
+3. Jaya 2010 - An Intelligent System for Semi- Automatic Story Generation for Kids Using Ontology - Provides an algorithm for story creation using simplified language grammar, a set of terminals, and a set of non-terminals.  The algorithm produces simple stories from user input of actions, actors, locations, and props.  May be expanded to a useful problem generator. 
+4. Deane 2003 - Automatic Item Generation via Frame Semantics: Natural Language Generation of Math Word Problems -  Most relevant paper that I found in regard to story generation from/to programming assignments.  Matches well with the Haskell formalism as it is mathematically rigorous.  Lays out many interesting points about Natural Language Generation(NLG) that should be taken into account when proceeding. “The very act of building an NLG system requires a systematic analysis of task content, and such an analysis can be leveraged to facilitate construction of task models within an ECD framework”
+1. Protoypes 
+1. software
+1. Protoge - Ontology editor created in Java that can output java source from given ontology.  Well known in NLP with a robust plug-in ecology.
+2. OpenNLP - Apache project for Natural Language Processing in Java.  
+1. Story from problem generation (bottom up)
+1. process 
+1. build ontology
+2. produce java source
+3. 1. Possible avenues for future research
+2. Summary
